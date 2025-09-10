@@ -1,0 +1,43 @@
+# 排除操作系统文件
+.DS_Store
+Thumbs.db
+
+# 排除IDE相关文件
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 排除依赖文件夹（如果有）
+node_modules/
+
+# 排除构建输出（如果有）
+build/
+dist/
+
+# 排除日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 排除Docker相关文件（除了Dockerfile和nginx.conf，这些是构建镜像需要的）
+.dockerignore
+*.dockerignore
+
+# 排除环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 排除临时文件
+*.tmp
+*.temp
+.cache/

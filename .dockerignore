@@ -1,0 +1,17 @@
+# 排除Git相关文件
+.git
+.gitignore
+
+# 排除Docker相关文件，但保留nginx.conf因为我们需要它进行配置
+Dockerfile
+.dockerignore
+
+# 排除系统文件
+.DS_Store
+Thumbs.db
+
+# 排除日志文件
+*.log
+
+# 排除node_modules（如果有的话）
+node_modules/
